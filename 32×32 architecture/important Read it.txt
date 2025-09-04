@@ -1,0 +1,77 @@
+
+
+This code was built by muhannad alkwiefati
+### Project Overview
+
+This repository provides an **implementation and simulation of the research article**:
+**“A Hybrid Quantum Deep Neural Network Combining MobileNetV2 and BiLSTM for Skin Cancer Image Classification”** (*Quantum Machine Intelligence, 2025*) .
+
+The model integrates:
+
+* **MobileNetV2** – a lightweight CNN backbone optimized for efficient and scalable feature extraction from dermoscopic images.
+* **BiLSTM (Bidirectional Long Short-Term Memory)** – to capture sequential dependencies and contextual information within extracted lesion features.
+* **Hybrid Quantum Convolutional Neural Network (HQCNN)** – employing quantum-inspired transformations through parameterized quantum circuits, enhancing non-linear feature representation and generalization.
+
+### Scientific Relevance
+
+Skin cancer classification is a highly complex task due to the subtle morphological variations between benign and malignant lesions. Traditional CNN-based methods are efficient but often limited in capturing global dependencies. By combining **classical deep learning (MobileNetV2, BiLSTM)** with **quantum-inspired feature transformations (HQCNN)**, this project:
+
+* Improves malignant case sensitivity (recall \~94%).
+* Enhances robustness and generalization in medical imaging tasks.
+* Demonstrates the clinical potential of hybrid quantum–classical models for early cancer diagnosis.
+
+### Dataset Access
+
+The code is designed for seamless integration with the **ISIC Archive**.
+
+* No manual image upload is required.
+* Simply **log in with your ISIC credentials**, 
+click the dataset link, and the pipeline automatically fetches the images.
+* The dataset used replicates that of the original publication, with an **extended number of images** to improve statistical generalization.
+
+### Contribution
+
+This repository is intended as a **research-oriented reimplementation** of the original study, enabling:
+
+* Reproducibility of published results.
+* Exploration of hybrid quantum–classical models in real-world medical image analysis.
+* A practical foundation for extending hybrid neural networks in dermatological applications.
+
+---
+
+
+### Présentation du projet
+
+Ce dépôt propose une **implémentation et une simulation de l’article de recherche** :
+**« Un réseau neuronal profond quantique hybride combinant MobileNetV2 et BiLSTM pour la classification des images du cancer de la peau »** (*Quantum Machine Intelligence, 2025*) .
+
+Le modèle intègre :
+
+* **MobileNetV2** – un backbone CNN léger, optimisé pour une extraction efficace et évolutive des caractéristiques dermoscopiques.
+* **BiLSTM (Long Short-Term Memory bidirectionnel)** – pour capturer les dépendances séquentielles et les informations contextuelles dans les caractéristiques extraites des lésions.
+* **HQCNN (Hybrid Quantum Convolutional Neural Network)** – utilisant des transformations inspirées du quantique via des circuits quantiques paramétrés, afin d’améliorer la représentation non linéaire et la généralisation.
+
+### Pertinence scientifique
+
+La classification du cancer de la peau est une tâche extrêmement complexe en raison des variations morphologiques subtiles entre les lésions bénignes et malignes. Les approches CNN classiques sont efficaces, mais limitées dans la capture des dépendances globales. En combinant **l’apprentissage profond classique (MobileNetV2, BiLSTM)** et les **transformations inspirées du quantique (HQCNN)**, ce projet :
+
+* Améliore la sensibilité pour les cas malins (rappel \~94 %).
+* Renforce la robustesse et la capacité de généralisation en imagerie médicale.
+* Démontre le potentiel clinique des modèles hybrides quantico-classiques pour un diagnostic précoce du cancer.
+
+### Accès au jeu de données
+
+Le code est conçu pour une intégration directe avec l’**ISIC Archive**.
+
+* Aucun téléchargement manuel d’images n’est nécessaire.
+* Il suffit de **se connecter avec vos identifiants ISIC**, de cliquer sur le lien du dataset, et le pipeline télécharge automatiquement les images.
+* Le jeu de données utilisé reproduit celui de l’article original, avec un **nombre d’images élargi** afin d’améliorer la généralisation statistique.
+
+### Contribution
+
+Ce dépôt constitue une **réimplémentation orientée recherche** de l’étude originale, permettant :
+
+* La reproductibilité des résultats publiés.
+* L’exploration de modèles hybrides quantico-classiques en analyse d’images médicales.
+* Une base pratique pour étendre l’usage des réseaux neuronaux hybrides aux applications dermatologiques.
+
